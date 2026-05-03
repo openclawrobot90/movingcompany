@@ -215,7 +215,7 @@ h1,h2,h3,h4{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spac
 .form-trust span{display:flex;align-items:center;gap:5px}
 .form-body{padding:32px 40px;transition:opacity .3s ease}
 @media(max-width:600px){.form-body{padding:20px 18px}.form-head{padding:22px 18px}}
-.fgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:16px}
+.fgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-bottom:16px}
 .fg{display:flex;flex-direction:column;gap:5px;position:relative}
 .fg.full{grid-column:1/-1}
 .fg label{font-size:.77rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--navy)}
@@ -571,6 +571,7 @@ a.fphone:hover{color:var(--gold-l)}
   .pgrid,.sgrid{grid-template-columns:1fr}
   .stoggle{grid-template-columns:1fr}
   .srow{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr}
   .fbtns{flex-direction:column;align-items:center}
   .fbtns .btn{width:100%;max-width:320px;justify-content:center}
 }
